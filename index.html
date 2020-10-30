@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Arcade</title>
+    <script type="text/javascript" src="script.js" ></script>
+  </head>
+  <style media="screen">
+    @font-face {
+     font-family: emulogic;
+     src: url('emulogic.ttf');
+    }
+
+    canvas {
+      display: inline-block;
+      border: 1px solid;
+      position: absolute;
+    }
+  </style>
+  <body>
+
+    <canvas id="canvas" width="640" height="460"></canvas>
+    <audio src="audio/music-battle.mp3" id="sound_intro"></audio>
+    <audio src="audio/player1.wav" id="sound_1"></audio>
+    <audio src="audio/player2.wav" id="sound_2"></audio>
+    <audio src="audio/point.wav" id="point"></audio>
+  </body>
+</html>
